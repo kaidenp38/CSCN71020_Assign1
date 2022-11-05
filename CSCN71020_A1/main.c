@@ -20,10 +20,12 @@ void main() {
 	{
 	case 1:
 		add();
-	case 2:
-			subtract();
 	}
-
+	switch (inputNum)
+	{
+	case 2:
+		subtract();
+	}
 }
 
 void printWelcomeMenu() {
